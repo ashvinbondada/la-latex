@@ -1,0 +1,11 @@
+.linear-algebra-page {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .solutions-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  

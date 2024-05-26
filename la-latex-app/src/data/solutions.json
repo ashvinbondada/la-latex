@@ -1,0 +1,11 @@
+[
+    {
+      "question": "What is the Pythagorean theorem?",
+      "solution": "a^2 + b^2 = c^2"
+    },
+    {
+      "question": "What is the derivative of e^x?",
+      "solution": "\\frac{d}{dx}e^x = e^x"
+    }
+  ]
+  

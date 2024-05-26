@@ -1,0 +1,31 @@
+/* src/components/SolutionCard.css */
+
+.solution-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px 0;
+  width: 80%;
+  text-align: left;
+  font-size: 1.2em;
+}
+
+.dropdown-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.dropdown-button:hover {
+  background-color: #0056b3;
+}
+
+.solution-content {
+  margin-top: 10px;
+}

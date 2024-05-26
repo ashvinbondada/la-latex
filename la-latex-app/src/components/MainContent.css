@@ -1,0 +1,18 @@
+/* src/components/MainContent.css */
+
+.main-content {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .solutions-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  

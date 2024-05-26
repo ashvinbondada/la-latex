@@ -1,0 +1,24 @@
+.author-page {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .author-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .author-image {
+    max-width: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .author-description {
+    width: 80%;
+    height: 200px;
+    padding: 10px;
+    font-size: 1em;
+  }
+  

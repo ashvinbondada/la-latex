@@ -1,0 +1,22 @@
+.books-page {
+    text-align: center;
+  }
+  
+  .book-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px auto;
+    width: 200px;
+  }
+  
+  .book-link {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #007bff;
+  }
+  
+  .book-link:hover {
+    text-decoration: underline;
+  }
+  
