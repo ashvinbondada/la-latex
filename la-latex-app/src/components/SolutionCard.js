@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { MathJax, MathJaxContext } from 'better-react-mathjax';
 import './SolutionCard.css';
 
-function SolutionCard({ solution, index }) {
+function SolutionCard({ problem, solution, index }) {
   const [isVisible, setIsVisible] = useState(false);
 
   const toggleVisibility = () => {
@@ -16,8 +16,15 @@ function SolutionCard({ solution, index }) {
       </button>
       {isVisible && (
         <MathJaxContext>
-          <div className="solution-content">
-            <MathJax inline>{`\\(${solution}\\)`}</MathJax>
+          <div className="problem-content">
+            <div className="problem-statement">
+              <h5>Problem Statement</h5>
+              <p>{problem}</p>
+            </div>
+            <div className="solution-statement">
+              <h5>Solution</h5>
+              <MathJax inline>{`\\(${solution}\\)`}</MathJax>
+            </div>
           </div>
         </MathJaxContext>
       )}

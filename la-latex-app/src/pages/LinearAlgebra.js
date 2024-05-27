@@ -8,8 +8,18 @@ function LinearAlgebra() {
     <div className="linear-algebra-page">
       <h1>Linear Algebra Solutions</h1>
       <div className="solutions-container">
-        {solutionsData.map((solution, index) => (
-          <SolutionCard key={index} solution={solution.solution} index={index + 1} />
+        {solutionsData.map((chapter, cIndex) => (
+          <div key={cIndex}>
+            <h2>{chapter.chapter}</h2>
+            {chapter.solutions.map((solution, sIndex) => (
+              <SolutionCard 
+                key={sIndex} 
+                problem={solution.problem} 
+                solution={solution.solution} 
+                index={sIndex + 1} 
+              />
+            ))}
+          </div>
         ))}
       </div>
     </div>

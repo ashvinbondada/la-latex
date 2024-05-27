@@ -1,25 +1,24 @@
 .header {
-  background-color: black;
+  background-color: #007bff; /* Blue background for the header */
   padding: 10px;
-  text-align: center;
 }
 
-.navbar {
+.navbar-custom {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start; /* Align links to the left */
+}
+
+.navbar-left {
+  display: flex;
   gap: 20px;
 }
 
 .nav-link {
-  color: white;
+  color: white !important; /* White color for the links */
   text-decoration: none;
   font-size: 1.2em;
 }
 
 .nav-link:hover {
-  text-decoration: underline;
-}
-
-.navbar {
-  margin-bottom: 20px;
+  color: lightgray !important; /* Light gray color on hover */
 }

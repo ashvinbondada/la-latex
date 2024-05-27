@@ -1,14 +1,13 @@
-/* src/components/SolutionCard.css */
-
 .solution-card {
   background-color: #f9f9f9;
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 20px;
   margin: 10px 0;
-  width: 80%;
+  width: 100%;
   text-align: left;
   font-size: 1.2em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .dropdown-button {
@@ -26,6 +25,20 @@
   background-color: #0056b3;
 }
 
-.solution-content {
+.problem-content {
   margin-top: 10px;
+}
+
+.problem-statement, .solution-statement {
+  margin-bottom: 15px;
+}
+
+.problem-statement h5, .solution-statement h5 {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.problem-statement p, .solution-statement p {
+  font-size: 1em;
+  line-height: 1.6;
 }
