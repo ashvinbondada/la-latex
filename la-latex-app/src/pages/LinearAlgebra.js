@@ -14,8 +14,7 @@ function LinearAlgebra() {
             {chapter.solutions.map((solution, sIndex) => (
               <SolutionCard 
                 key={sIndex} 
-                problem={solution.problem} 
-                solution={solution.solution} 
+                file={solution.file} 
                 index={sIndex + 1} 
               />
             ))}

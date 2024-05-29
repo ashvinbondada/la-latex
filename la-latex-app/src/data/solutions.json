@@ -1,15 +1,10 @@
 [
-    {
-      "chapter": "Chapter 1: Introduction to Linear Algebra",
-      "solutions": [
-        { "problem": "What is the Pythagorean theorem?", "solution": "a^2 + b^2 = c^2" },
-        { "problem": "What is the derivative of e^x?", "solution": "\\frac{d}{dx}e^x = e^x" }
-      ]
-    },
-    {
-      "chapter": "Chapter 2: Advanced Topics",
-      "solutions": [
-        { "problem": "What is a matrix?", "solution": "\\text{A matrix is a rectangular array of numbers arranged in rows and columns.}" }
-      ]
-    }
-  ]
+  {
+    "chapter": "Chapter 1: Introduction to Linear Algebra",
+    "solutions": [
+      {
+        "file": "content/chapter_3/3_a_1.text"
+      }
+    ]
+  }
+]
