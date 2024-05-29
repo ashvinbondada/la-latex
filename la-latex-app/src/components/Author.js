@@ -18,7 +18,7 @@ function Author() {
       <h1>Author</h1>
       <div className="author-content">
         <input type="file" onChange={handleImageChange} />
-        {image && <img src={image} alt="Author" className="author-image" />}
+        {image && <img src={image} alt="Author HELLO" className="author-image" />}
         <textarea
           value={description}
           onChange={handleDescriptionChange}
